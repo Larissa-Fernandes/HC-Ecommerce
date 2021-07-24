@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide/lightslider.css"
+    <script src='script.js'></script>
+    <script src="slide/Jquery.js"></script>
+    <script src="slide/lightslider.js"></script>
+    
     <title>Bubbles</title>
     <link href='https://fonts.googleapis.com/css2?family=Rochester&family=Quicksand&display=swap' rel='stylesheet'>
 </head>
@@ -19,6 +24,8 @@
         </div>        
     </div>
     
+    <!-- Banner -->
+
     <div class="banner">
         <p id='Bubbles'>Bubbles</p>
         <div class="bannerContainer">
@@ -35,10 +42,120 @@
         <a href="#store"><img src="assets/down-2.4s-200px.svg" id="arrow"></a>
     </div>
 
+    <!-- Store -->
+
     <div class="store" id="store">
         <div class="topStore">
             <p id="subtitle">Newest products</p>
         </div>
+
+        <!-- slide -->
+        <section class="slider">
+            <ul id="autoWidth" class="cs-hidden">
+                <!--1------------------------------------>	
+                <li class="item-a">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="1" src="assets/glasses-lookstudio.jpg">
+                            <!--overlayer---------->
+                            <div class="overlay">
+                                <!--buy-btn------>	
+                                <a href="#" class="buy-btn">buy now</a>	
+                            </div>
+                        </div>
+                        <!--detail-box--------->
+                        <div class="detail-box">
+                            <!--type-------->
+                            <div class="type">
+                                <a href="#">Glasses</a>
+                            </div>
+                            <!--price-------->
+                            <a href="#" class="price">$184</a>
+                        </div>
+                    </div>		
+                </li>
+            
+                <!--2------------------------------------>	
+                <li class="item-b">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <img alt="2" src="assets/hat-wayhomestudio.jpg">
+                            <!--overlayer---------->
+                            <div class="overlay">
+                                <!--buy-btn------>	
+                                <a href="#" class="buy-btn">buy now</a>	
+                            </div>
+                        </div>
+                        <!--detail-box--------->
+                        <div class="detail-box">
+                            <!--type-------->
+                            <div class="type">
+                                <a href="#">Hat</a>
+                            </div>
+                            <!--price-------->
+                            <a href="#" class="price">$34</a>
+                        </div>
+                    </div>		
+                </li>
+                <!--3------------------------------------>	
+                <li class="item-c">
+                <!--box-slider--------------->
+                <div class="box">
+                    <!--img-box---------->
+                    <div class="slide-img">
+                        <img alt="3" src="assets/shirt-wayhomestudio.jpg">
+                        <!--overlayer---------->
+                        <div class="overlay">
+                            <!--buy-btn------>	
+                            <a href="#" class="buy-btn">buy now</a>	
+                        </div>
+                    </div>
+                    <!--detail-box--------->
+                    <div class="detail-box">
+                        <!--type-------->
+                        <div class="type">
+                            <a href="#">Shirt</a>
+                        </div>
+                        <!--price-------->
+                        <a href="#" class="price">$23</a>
+                    </div>
+                </div>		
+            </li>
+            <!--4------------------------------------>	
+            <li class="item-d">
+                <!--box-slider--------------->
+                <div class="box">
+                    <!--img-box---------->
+                    <div class="slide-img">
+                        <img alt="4" src="assets/soapbubble-lookstudio.jpg">
+                        <!--overlayer---------->
+                        <div class="overlay">
+                            <!--buy-btn------>	
+                            <a href="#" class="buy-btn">buy now</a>	
+                        </div>
+                    </div>
+                    <!--detail-box--------->
+                    <div class="detail-box">
+                        <!--type-------->
+                        <div class="type">
+                            <a href="#">Kit Shirt & Glasses</a>
+                        </div>
+                        <!--price-------->
+                        <a href="#" class="price">$200</a>
+                    </div>
+                </div>		
+            </li>
+        </section>
+            
+        <!--script-link----------->
+        <script type="text/javascript" src="script.js"></script>
+
+        <!-- fim do slide -->
     </div>
 </body>
+
 </html>

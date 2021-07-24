@@ -128,3 +128,112 @@ li a.active {
     color: white;
 }
 
+.topStore #subtitle{
+    padding-top: 2.5vh;
+}
+
+/* slide */
+
+.box{
+	width:300px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+}
+.slide-img{
+	height: 450px;
+	position:relative;
+}
+.slide-img img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+.detail-box{
+	width: 100%;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+    background-color: #f8c9c9be;
+}
+.type{
+	display: flex;
+	flex-direction: column;
+}
+.type a{
+	color:#222222;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+
+.type a:hover{
+    color: #f3848d;    
+	transition: all ease 0.3s;
+}
+.type span{
+	color:rgba(26,26,26,0.5);
+}
+.price{
+	color: #333333;
+	font-weight: 600;
+	font-size: 1.1rem;
+	letter-spacing: 0.5px;
+}
+
+.price:hover{
+    color: #f3848d;
+	transition: all ease 0.3s;
+}
+.overlay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	height: 100%;
+	background-color: #fed6d69f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buy-btn{
+    font-family: inherit;
+    font-size: 2.2vh;
+    font-weight: bold;
+    margin: 2vh;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: solid 2px white;
+    padding: 1.5vh 5vh;
+    border-radius: 5vh;
+}
+.buy-btn:hover{
+	background-color: white;
+    color: #f3848d;
+	transition: all ease 0.3s;
+}
+.overlay{
+	visibility: hidden;
+}
+.slide-img:hover .overlay{
+	visibility: visible;
+	animation:fade 0.5s;
+}
+ 
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+/* next and prev buttons */
