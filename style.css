@@ -236,4 +236,18 @@ li a.active {
 	}
 }
 
-/* next and prev buttons */
+/* end slide */
+
+footer {
+    text-align: center;
+    background-color: #f3848d;
+    color: #fed6d6;
+}
+
+#icons {
+    padding-bottom: 2vh;
+}
+
+footer a{
+    padding: 1.3vh;
+}

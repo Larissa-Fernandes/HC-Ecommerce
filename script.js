@@ -8,4 +8,6 @@ $(document).ready(function() {
             $('#autoWidth').removeClass('cS-hidden');
         } 
     });  
-  });
+});
+
+/* end slide */
